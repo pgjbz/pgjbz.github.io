@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+	<title>New Project</title>
+	<defs>
+		<image  width="16" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IB2cksfwAAAWVQTFRF6enp39/f1NTUyMjIu7u7rq6uoKCgkZGRg4ODdHR0ZmZmV1dXSkpKPT09MDAwJSUl3d3d0dHRxcXFubm5q6urnZ2dj4+PgICAcXFxY2NjVVVVR0dHOjo6Li4uIyMjGRkZz8/Pw8PDtra2qKiompqajIyMfX19b29vYGBgUlJSRUVFODg4LCwsISEhFxcXDg4OwMDAtLS0pqaml5eXiYmJenp6bGxsXl5eUFBQQkJCNjY2KioqHx8fFRUVDQ0NBQUFsbGxo6OjlZWVhoaGeHh4aWlpW1tbTU1NQEBAMzMzKCgoHR0dFBQUCwsLBAQEAAAAkpKSdXV1WFhYMTExGxsbEhISCgoKAwMDcnJyZGRkSEhIOzs7Ly8vJCQkEBAQCAgIAgICfn5+YWFhU1NTDw8PBwcHAQEBQ0NDFhYWBgYGTk5ONDQ0DAwMS0tLPj4+JiYmGhoaERERCQkJLS0tIiIiGBgYICAgGayiaQAAAMhJREFUeJxjYGBkYmZhZWPn4OTi5uHl42cQEBQSFhEVE5eQlJKWkZWTZ1BQVFJWUVVT19DU0tbR1dNnMDA0MjYxNTO3sLSytrG1s2dwcHRydnF1c/fw9PL28fXzZ2AL4AjkCuLhDeYPCQ0L9/dnEBOPiJSKio6JlY+LT/AHCiSqJyWDjUtJTfMHCQCNSwcal2GX6Q8GDG5ZHtlA43L8/KECuXnB+RDjoAJA4woKixL84QLFJaVQ46ACZXDjoAI+Ofb+KAII4yAAAEjIQo94LCzlAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 24px;fill: #000000;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<text id="P" style="transform: matrix(1,0,0,1,.375,18.438)" >
+		<tspan x="0" y="0" class="t0">P
+</tspan>
+	</text>
+</svg>
