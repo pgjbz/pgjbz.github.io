@@ -23,21 +23,27 @@ my-profile/
 
 ### 1. Navigation (Fixed)
 - Logo: `<PG/>`
-- Links: Home, Skills, Experience, About, Contact
+- Links: Home, About, Skills, Experience, Contact
 
 ### 2. Home
 - Name: Paulo Gabriel
 - Role: Senior Software Engineer
 - CTA: "Get in Touch" button
 
-### 3. Skills
+### 5. About Me
+- Senior Software Engineer with 5+ years experience
+- Specializes in Java, Kafka, distributed databases
+- Open Source: Rust4Noobs (he4rt community)
+- Currently improving AI skills
+
+### 4. Skills
 - Backend Development: Java, Spring Boot, Spring Cloud, Event Sourcing, REST APIs, Microservices
 - Message Queue: Apache Kafka, RabbitMQ, Event-Driven Architecture
 - Relational Databases: PostgreSQL, MySQL, Oracle
 - NoSQL Databases: MongoDB, Redis
 - AWS: RDS, MSK, EKS, SQS
 
-### 4. Experience (Timeline)
+### 5. Experience (Timeline)
 - **PicPay** (2023 - Present): Senior Software Engineer
   - Banking Transactions: TED, SLC, SPB, DDA
   - DDA for Nuclea (CIP) and Company Bills
@@ -53,12 +59,6 @@ my-profile/
   - PDV (Point of Sale) development
   - Anhembi integration services
   - Invoice emissions system
-
-### 5. About Me
-- Senior Software Engineer with 5+ years experience
-- Specializes in Java, Kafka, distributed databases
-- Open Source: Rust4Noobs (he4rt community)
-- Currently improving AI skills
 
 ### 6. Contact
 - Email: contact@pgjbz.dev
