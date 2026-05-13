@@ -344,3 +344,14 @@ section {
 #home {
     transition: opacity 0.4s ease-out, transform 0.4s ease-out;
 }
+
+.section-highlight {
+    position: fixed;
+    height: 2px;
+    background: var(--red);
+    z-index: 1001;
+    transition: left 0.3s ease, width 0.3s ease;
+    pointer-events: none;
+    display: none;
+    top: 48px;
+}

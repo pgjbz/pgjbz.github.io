@@ -30,7 +30,7 @@ my-profile/
 - Role: Senior Software Engineer
 - CTA: "Get in Touch" button
 
-### 5. About Me
+### 3. About Me
 - Senior Software Engineer with 5+ years experience
 - Specializes in Java, Kafka, distributed databases
 - Open Source: Rust4Noobs (he4rt community)
