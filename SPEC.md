@@ -89,3 +89,20 @@ my-profile/
 - 3 Companies
 - 1 Open Source Project
 - Started: 2020
+
+---
+
+## Interactive Features
+
+### Dynamic Navigation Highlight
+- A red underscore highlight bar that appears below the active navigation link
+- The highlight automatically moves to the current section as the user scrolls
+- Uses Intersection Observer to detect which section is currently in view
+- Smooth CSS transitions (0.3s ease) for left and width properties
+- Fixed position below the navbar (top: 48px)
+- Z-index: 1001 to stay above other elements
+
+### Scroll Animations
+- Sections fade in and slide up when entering the viewport
+- Uses Intersection Observer with threshold 0.1
+- Smooth opacity and transform transitions
