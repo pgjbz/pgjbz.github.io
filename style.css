@@ -210,6 +210,30 @@ h2::after {
     margin-bottom: 1rem;
 }
 
+.experience-item .role {
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+.experience-item .role:first-of-type {
+    margin-top: 0;
+    border-top: none;
+}
+
+.experience-item .role h3 {
+    color: var(--text-primary);
+    font-size: 1.1rem;
+    margin-bottom: 0.2rem;
+}
+
+.experience-item .role .period {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    margin-bottom: 0.75rem;
+    font-style: italic;
+}
+
 .experience-item ul {
     list-style: none;
 }

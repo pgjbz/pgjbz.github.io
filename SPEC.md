@@ -11,10 +11,11 @@
 
 ```
 my-profile/
-├── index.html    # Main HTML file
-├── style.css    # Styles
-├── script.js    # JavaScript (placeholder)
-└── SPEC.md      # This specification
+├── index.html         # Main HTML file
+├── style.css          # Styles
+├── script.js          # JavaScript (placeholder)
+├── EXPERIENCES.md     # Professional experiences data
+└── SPEC.md            # This specification
 ```
 
 ---
@@ -37,28 +38,17 @@ my-profile/
 - Currently improving AI skills
 
 ### 4. Skills
-- Backend Development: Java, Spring Boot, Spring Cloud, Event Sourcing, REST APIs, Microservices
-- Message Queue: Apache Kafka, RabbitMQ, Event-Driven Architecture
+- Backend Development: Java, Spring Framework, Spring Boot, Spring Data, Spring Cloud, Spring Cloud Stream, Event Sourcing, REST APIs, GraphQL, SOAP, Microservices
+- Message Queue & Async: Apache Kafka, Kafka Connect, AWS SQS, Event-Driven Architecture
 - Relational Databases: PostgreSQL, MySQL, Oracle
 - NoSQL Databases: MongoDB, Redis
-- AWS: RDS, MSK, EKS, SQS
+- Infrastructure & DevOps: Docker, Kubernetes, Argo CD, Terraform, AWS (EKS, RDS, MSK, SQS), Azure, OpenShift
+- Monitoring & Observability: New Relic, Dynatrace
 
 ### 5. Experience (Timeline)
-- **PicPay** (2023 - Present): Senior Software Engineer
-  - Banking Transactions: TED, SLC, SPB, DDA
-  - DDA for Nuclea (CIP) and Company Bills
-  - Event Sourcing Systems
-  - Improved notification speed: 2min → 15sec
-  - Architecture, database design, tech stack
-
-- **Ci&T** (2021 - 2023): Mid-Level Developer - Sascar Project
-  - Performance optimization
-  - System improvements and refactoring
-
-- **RaiaDrogasil S/A** (2020 - 2021): Developer
-  - PDV (Point of Sale) development
-  - Anhembi integration services
-  - Invoice emissions system
+- Read the file `EXPERIENCES.md` to generate this section
+- Only developer roles are included (non-dev roles excluded)
+- Companies: PicPay (2023-Present), CI&T (2021-2023), Dextra (2021), RD/RaiaDrogasil (2020-2021)
 
 ### 6. Contact
 - Email: contact@pgjbz.dev
@@ -86,7 +76,7 @@ my-profile/
 
 ## Stats
 - 5+ Years Experience
-- 3 Companies
+- 4 Companies
 - 1 Open Source Project
 - Started: 2020
 
