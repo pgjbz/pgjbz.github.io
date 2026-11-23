@@ -53,7 +53,7 @@ my-profile/
 ### 5. Experience (Timeline)
 - Read the file `EXPERIENCES.md` to generate this section
 - Only developer roles are included (non-dev roles excluded)
-- Companies: PicPay (2023-Present), CI&T (2021-2023), Dextra (2021), RD/RaiaDrogasil (2020-2021)
+- Companies: Cactus Gaming (2026), PicPay (2023-2026), CI&T formerly Dextra (2021-2023), RaiaDrogasil (2020-2021)
 
 ### 6. Contact
 - Email: contact@pgjbz.dev (CV: pgj1085@gmail.com)
@@ -83,7 +83,7 @@ my-profile/
 ---
 
 ## Stats
-- 5+ Years Experience
+- 6+ Years Experience
 - 4 Companies
 - 1 Open Source Project
 - Started: 2020

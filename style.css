@@ -193,11 +193,6 @@ h2::after {
     border-radius: 50%;
 }
 
-.experience-item h3 {
-    font-size: 1.2rem;
-    margin-bottom: 0.3rem;
-}
-
 .experience-item .company {
     color: var(--red);
     font-weight: 500;
@@ -210,14 +205,22 @@ h2::after {
     margin-bottom: 1rem;
 }
 
+.experience-item .company-desc {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
 .experience-item .role {
     margin-top: 1rem;
     padding-top: 0.5rem;
-    border-top: 1px solid rgba(255,255,255,0.05);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.experience-item .role:first-of-type {
+.experience-item .company-desc + .role {
     margin-top: 0;
+    padding-top: 0;
     border-top: none;
 }
 
@@ -232,6 +235,12 @@ h2::after {
     font-size: 0.85rem;
     margin-bottom: 0.75rem;
     font-style: italic;
+}
+
+.project-title {
+    color: var(--text-primary);
+    font-size: 1rem;
+    margin: 1.25rem 0 0.5rem;
 }
 
 .experience-item ul {
@@ -309,10 +318,36 @@ h2::after {
     text-decoration: underline;
 }
 
+.contact-social {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.contact-social a {
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 2px solid var(--red);
+    padding-bottom: 0.2rem;
+    transition: color 0.3s;
+}
+
+.contact-social a:hover {
+    color: var(--red-hover);
+}
+
+#contact .contact-location {
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
 .projects {
     margin-top: 2rem;
     padding-top: 2rem;
-    border-top: 1px solid rgba(255,255,255,0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .projects h3 {
@@ -336,20 +371,6 @@ h2::after {
     color: var(--text-secondary);
 }
 
-@media (max-width: 768px) {
-    #home h1 {
-        font-size: 2.5rem;
-    }
-    
-    .nav-links {
-        gap: 1rem;
-    }
-    
-    .about-content {
-        grid-template-columns: 1fr;
-    }
-}
-
 .fade-section {
     opacity: 0;
     transform: translateY(30px);
@@ -361,14 +382,6 @@ h2::after {
     transform: translateY(0);
 }
 
-section {
-    transition: opacity 0.4s ease-out, transform 0.4s ease-out;
-}
-
-#home {
-    transition: opacity 0.4s ease-out, transform 0.4s ease-out;
-}
-
 .section-highlight {
     position: fixed;
     height: 2px;
@@ -378,4 +391,22 @@ section {
     pointer-events: none;
     display: none;
     top: 48px;
+}
+
+@media (max-width: 768px) {
+    #home h1 {
+        font-size: 2.5rem;
+    }
+
+    .nav-links {
+        gap: 1rem;
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-social {
+        gap: 1.5rem;
+    }
 }
