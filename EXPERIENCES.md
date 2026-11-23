@@ -1,70 +1,67 @@
 # Professional Experience
 
+## Cactus Gaming
+**Duration:** 4 months
+
+### Senior Developer
+_July 2026 - October 2026 (4 months) — Belo Horizonte, MG (Remote)_
+
+- White-label iGaming company holding 17% of the national market, with a high-scale, multi-tenant platform isolating data and business rules per brand
+- Developed and maintained the Cash In / Cash Out engine, integrating multiple payment gateways and ensuring high availability and transactional reconciliation
+- Evolved and fixed the PHP/Laravel ecosystem, ensuring reliability, testability and tenant isolation under very high concurrency
+- Implemented compliance and industry regulation rules, including deposit and withdrawal limits and responsible gaming policies
+- Built observability with Datadog (APM, metrics and tracing) and OpenSearch for log aggregation and analysis
+
+---
+
 ## PicPay
-**Duration:** 3 years 3 months
+**Duration:** 3 years 2 months
 
 ### Senior Systems Developer
-_September 2024 - Present (1 year 7 months) — São Paulo, SP_
+_September 2024 - February 2026 (1 year 6 months) — São Paulo, SP (Remote)_
 
-- Development and maintenance of systems with Java, using Spring Framework, Spring Boot, Spring Data, Spring Cloud, Spring Cloud Stream
-- Designing and implementing microservice systems with asynchronous communication using Apache Kafka, SQS and REST, GraphQL and SOAP APIs for partner integrations
-- End-to-end development: from infrastructure provisioning with Terraform to horizontal and vertical application scaling with Kubernetes and Argo CD
-- Usage of relational databases (MySQL, PostgreSQL) and non-relational databases (MongoDB, Redis)
-- SQL analysis and query tuning
-- Main focus on products such as DDA (Direct Debit Authorization) and Boletos (slips), also working on BAAS for bill payment
-- Maintenance of systems such as SLC and SPB
-- API monitoring using New Relic and Dynatrace, with implementation of custom indexed logs, integration traces, custom metrics, performance, and alerts
-- Active participation in technical interview recruiting and onboarding of new team members
+- Led the DDA (Direct Debit Authorization) team, reducing notification time from 2m40s to under 15 seconds
+- Restructured the system architecture, achieving a significant performance gain and a drastic reduction in operating costs
+- Created a contingency system that simplified the deployment flow and implemented automatic reversal of VR boletos
+- Maintained the bank holidays system, sourcing data from FEBRABAN
 
 ### Mid-Level Systems Developer
 _January 2023 - September 2024 (1 year 9 months)_
 
-- Development and maintenance of systems with Java, using Spring Framework, Spring Boot, Spring Data, Spring Cloud, Spring Cloud Stream
-- Designing and implementing microservice systems with asynchronous communication using Apache Kafka, SQS and REST, GraphQL and SOAP APIs for partner integrations
-- End-to-end development: from infrastructure provisioning with Terraform to horizontal and vertical application scaling with Kubernetes and Argo CD
-- Usage of relational databases (MySQL, PostgreSQL) and non-relational databases (MongoDB, Redis)
-- SQL analysis and query tuning
-- Main focus on products such as DDA (Direct Debit Authorization) and Boletos (slips), also working on BAAS for bill payment
-- Maintenance of systems such as SLC and SPB
-- API monitoring using New Relic and Dynatrace, with implementation of custom indexed logs, integration traces, custom metrics, performance, and alerts
-- Active participation in technical interview recruiting and onboarding of new team members
+- Developed and maintained the BaaS platform and banking transactions (TED, SLC, SPB and DDA) with event-driven microservices using Spring Boot 3, Spring Cloud Stream, MySQL, MongoDB and Redis
+- Architected, modeled and implemented a DDA-based system for collection boletos, with event-driven architecture and distributed parallel batch processing for faster notifications
+- Integrated with Nuclea (Opt In and Opt Out for electronic payers) and contributed to Banco Original's boleto payment system
+- Contributed to the backend Java templates for new services (optimized Dockerfile, best practices and image security) and executed Spring Boot 2 to 3 and 4 and Java 11 to 17 and 25 upgrades
+
+**Across both roles:**
+- Responsible for the applications' infrastructure on AWS (databases, SQS queues, Kafka topics, MSK and EKS), CI/CD with Tekton and ArgoCD, and observability with New Relic and Dynatrace
+- Strong involvement in unit and integration testing and in the code review culture; onboarding of new team members and conducting technical interviews
 
 ---
 
-## CI&T
-### Software Development Engineer
-_December 2021 - January 2023 (1 year 2 months) — São Paulo, SP_
+## Ci&T (formerly Dextra)
+### Mid-Level Developer
+_July 2021 - January 2023 (1 year 7 months) — Campinas, SP (Remote)_
 
-- Development and maintenance of systems using Java, Spring Boot, Spring Data JDBC
-- Usage of relational databases (PostgreSQL, Oracle) and non-relational databases (MongoDB, Redis)
-- Usage of Apache Kafka messaging and Kafka Connect
-- Usage of Azure cloud (Vivo Money project) and OpenShift (Sascar)
-- Work on vehicle fleet monitoring project at Sascar and performance improvement (cache, query tuning)
-- Implementation of migration to microservices with Java at Vivo Money
+**Sascar — performance improvement of the fleet monitoring platform (Michelin group):**
+- Reduced critical Oracle queries from 15 seconds to 200 ms through index creation and query rewriting
+- Implemented a distributed Redis cache asynchronously updated via Kafka Connect (CDC), and adopted MongoDB in specific user contexts
+- Developed services with Java 11 and Spring Boot 2 in OpenShift containers, monitored with New Relic (APM)
 
----
-
-## Dextra
-### Mid-Level Developer Analyst
-_July 2021 - December 2021 (6 months)_
-
-- Development and maintenance of systems using Java, Spring Boot, Spring Data JDBC
-- Usage of relational databases (PostgreSQL, Oracle) and non-relational databases (MongoDB, Redis)
-- Usage of Apache Kafka messaging and Kafka Connect
-- Container management with OpenShift
-- Focus on performance improvement
+**Vivo Money — monolith to microservices migration:**
+- Developed applications with Java 11/17, Spring Boot and Spring Cloud Stream on Azure, making the system highly scalable and testable
+- Worked with CI/CD (Jenkins and ArgoCD) and integration tests with Testcontainers and WireMock, in addition to unit tests
 
 ---
 
-## RD (RaiaDrogasil)
+## RaiaDrogasil
 **Duration:** 1 year 5 months
 
-### Java Developer I
-_March 2020 - July 2021 (1 year 5 months)_
+### Junior Developer
+_March 2020 - July 2021 (1 year 5 months) — São Paulo, SP (Remote)_
 
-- Development and maintenance of systems using Java 8 and 11
-- Maintenance of applications with JSF and JSP
-- Web container management with WebLogic
-- Integration of SNGPC and Invoice systems
-- Implementation of commercial automation (Drogasil and DrogaRaia POS), price loading and price query
-- Usage of Oracle and PostgreSQL as main databases
+- Largest pharmaceutical and health products retailer in Brazil; worked on the in-store commercial automation system
+- Developed and maintained systems in Java 8/11, Java EE, JSF/JSP and Spring Boot 2, with Oracle and PostgreSQL
+- Implemented integrations with ANVISA (SNGPC) for controlled medicines and an internal batch routine system for that integration
+- Developed the POS in Java 8 and Java Swing, with integration to fiscal printers (PAF/ECF) and NF-e/NFC-e with SEFAZ
+- Performed query tuning, reducing a critical query from 3 minutes to under 1 second
